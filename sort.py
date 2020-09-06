@@ -74,9 +74,9 @@ with open('test.json') as json1:
                 if i == k:
                     educationcount += 1
         if(sportscount == 0 and politiccount == 0 and economiccount == 0 and educationcount == 0):
-            f.write("其他\n")
+            f.write("Others\n")
         else:
-            types = {'体育':sportscount,'财经':economiccount,'教育':educationcount,'政务':politiccount}
+            types = {'Sports':sportscount,'Finance':economiccount,'Education':educationcount,'Politics':politiccount}
             winner = max(types,key=types.get)
             f.write(winner + "\n")
     for item in data['misc']:
@@ -106,9 +106,9 @@ with open('test.json') as json1:
                 if i == k:
                     educationcount += 1
         if(sportscount == 0 and politiccount == 0 and economiccount == 0 and educationcount == 0):
-            f.write("其他\n")
+            f.write("Others\n")
         else:
-            types = {'体育':sportscount,'财经':economiccount,'教育':educationcount,'政务':politiccount}
+            types = {'Sports':sportscount,'Finance':economiccount,'Education':educationcount,'Politics':politiccount}
             winner = max(types,key=types.get)
             f.write(winner + "\n")
     for item in data['education']:
@@ -138,9 +138,9 @@ with open('test.json') as json1:
                 if i == k:
                     educationcount += 1
         if(sportscount == 0 and politiccount == 0 and economiccount == 0 and educationcount == 0):
-            f.write("其他\n")
+            f.write("Others\n")
         else:
-            types = {'体育':sportscount,'财经':economiccount,'教育':educationcount,'政务':politiccount}
+            types = {'Sports':sportscount,'Finance':economiccount,'Education':educationcount,'Politics':politiccount}
             winner = max(types,key=types.get)
             f.write(winner + "\n")
 
